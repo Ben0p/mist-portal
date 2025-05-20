@@ -1,5 +1,4 @@
-FROM node:16-alpine
-LABEL maintainer="dev@mist.io"
+FROM node:20-alpine
 
 RUN apk add --update --no-cache git nginx
 
